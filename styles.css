@@ -399,7 +399,8 @@ a:hover {
         padding: 0 1em 0;
     }
     .nav-tabs>li>a {
-        width: 6.5em;
-        padding: 1em .5em;
+        width: 6.547em;
+        padding: .75em .5em;
+        line-height: 1em;
     }
 }

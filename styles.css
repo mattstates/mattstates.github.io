@@ -11,10 +11,18 @@
 
 /* ----- TEXT STYLES -----*/
 
-.global-text-styles {
+.primary-content-text {
     color: rgb(152, 152, 152);
     font-size: 16px;
     font-family: "myriad-pro", sans-serif;
+}
+
+.special-text-one {
+    color: rgb(108, 156, 178);
+}
+
+.special-text-two {
+    color: rgb(255, 191, 50);
 }
 
 .text-color-light {
@@ -33,27 +41,8 @@
     text-align: left;
 }
 
-.text-right {
-    text-align: right;
-}
-
-.special-text-one {
-    color: rgb(108, 156, 178);
-}
-
-.special-text-two {
-    color: rgb(255, 191, 50);
-}
-
-.symbol-text,
-.fa-li.fa-check {
-    color: rgb(248, 160, 44);
-}
-
-.quote {
-    font-size: .9em;
-    color: rgb(100, 100, 100);
-    line-height: 1.8em;
+.text-small {
+    font-size: .75em;
 }
 
 .wide-line-height {
@@ -69,11 +58,6 @@
     font-size: 1.4em;
 }
 
-.sub-headline {
-    font-size: 1.125em;
-    font-weight: 100;
-}
-
 .action-text {
     color: rgb(202, 91, 30);
     text-transform: uppercase;
@@ -85,6 +69,22 @@
     font-size: 3.5em;
 }
 
+.quote {
+    font-size: .9em;
+    color: rgb(100, 100, 100);
+    line-height: 1.8em;
+}
+
+.sub-headline {
+    font-size: 1.125em;
+    font-weight: 100;
+}
+
+.symbol-text,
+.fa-li.fa-check {
+    color: rgb(248, 160, 44);
+}
+
 
 /* ----- SPACING STYLES -----*/
 
@@ -92,11 +92,11 @@
     margin-top: 0;
 }
 
-.small-vert-margin {
+.small-top-margin {
     margin-top: .75em;
 }
 
-.med-vert-margin {
+.med-top-margin {
     margin-top: 1.5em;
 }
 
@@ -104,7 +104,7 @@
     margin-left: 1.5em;
 }
 
-.large-vert-margin {
+.large-top-margin {
     margin-top: 4.5em;
 }
 
@@ -147,19 +147,19 @@ a:hover {
 
 /* ---- BUTTON STYLES ---- */
 
-.btn-orange {
-    background-color: rgb(202, 91, 30);
+.button-custom {
+    border-radius: 4px;
+    color: rgb(255, 255, 255);
+    padding: 15px 0 15px;
+    cursor: pointer;
 }
 
 .btn-blue {
     background-color: rgb(30, 128, 207);
 }
 
-.button-custom {
-    border-radius: 4px;
-    color: rgb(255, 255, 255);
-    padding: 15px 0 15px;
-    cursor: pointer;
+.btn-orange {
+    background-color: rgb(202, 91, 30);
 }
 
 .button-large {
@@ -193,7 +193,7 @@ a:hover {
 
 .navbar-default .navbar-nav>li>a.btn {
     color: rgb(255, 255, 255);
-    margin-left: 1em;
+    margin-left: 2em;
 }
 
 .navbar-default .navbar-nav>li>a:hover {
@@ -259,7 +259,6 @@ a:hover {
 
 .nav-tabs>li>a {
     margin-right: 5px;
-    border: none;
     border-radius: 10px 10px 0 0;
     border-bottom: 1px solid rgb(221, 221, 221);
     width: 9.625em;
@@ -315,8 +314,6 @@ a:hover {
 .footer {
     height: 5.3125em;
     padding: 2.2em;
-    font-size: .8em;
-    font-weight: 600;
 }
 
 @media (max-width: 1200px) {
@@ -325,7 +322,7 @@ a:hover {
         float: none;
         width: 100%;
     }
-    .large-vert-margin {
+    .large-top-margin {
         margin-top: 2em;
     }
     .header-image {
@@ -389,17 +386,20 @@ a:hover {
     .testimonials p {
         padding: 0 4em 0;
     }
+    .navbar-default .navbar-nav>li>a.btn {
+        margin-left: 0em;
+    }
 }
 
 @media (max-width: 641px) {
-    .global-text-styles {
+    .primary-content-text {
         font-size: 14px;
     }
     .header-middle {
         padding: 0 1em 0;
     }
     .nav-tabs>li>a {
-        width: 6.547em;
+        width: 6.45em;
         padding: .75em .5em;
         line-height: 1em;
     }

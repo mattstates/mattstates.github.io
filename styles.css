@@ -1,42 +1,4 @@
-/* ----- SPACING STYLES -----*/
-
-.zero-top-margin {
-    margin-top: 0;
-}
-
-.small-vert-margin {
-    margin-top: .75em;
-}
-
-.med-vert-margin {
-    margin-top: 1.5em;
-}
-
-.med-left-margin {
-    margin-left: 1.5em;
-}
-
-.large-vert-margin {
-    margin-top: 4.5em;
-}
-
-.med-top-padding {
-    padding-top: .5em;
-}
-
-.med-left-padding {
-    padding-left: .5em;
-}
-
-sup {
-    top: -.3em;
-}
-
-/* ----- GLOBAL STYLES -----*/
-
-html {
-    background-color: rgb(255, 255, 255);
-}
+/* ----- COLOR STYLES -----*/
 
 .default-background {
     background-color: rgb(255, 255, 255);
@@ -45,6 +7,9 @@ html {
 .dark-background {
     background-color: rgb(3, 35, 53);
 }
+
+
+/* ----- TEXT STYLES -----*/
 
 .global-text-styles {
     color: rgb(152, 152, 152);
@@ -109,12 +74,10 @@ html {
     font-weight: 100;
 }
 
-.fa-ul {
-    margin-left: 1.6em;
-}
-
-.header-middle .fa-li.fa-check {
-    margin: 5px 0 0;
+.action-text {
+    color: rgb(202, 91, 30);
+    text-transform: uppercase;
+    font-weight: 600;
 }
 
 .pricing-text {
@@ -122,10 +85,50 @@ html {
     font-size: 3.5em;
 }
 
-.action-text {
-    color: rgb(202, 91, 30);
-    text-transform: uppercase;
-    font-weight: 600;
+
+/* ----- SPACING STYLES -----*/
+
+.zero-top-margin {
+    margin-top: 0;
+}
+
+.small-vert-margin {
+    margin-top: .75em;
+}
+
+.med-vert-margin {
+    margin-top: 1.5em;
+}
+
+.med-left-margin {
+    margin-left: 1.5em;
+}
+
+.large-vert-margin {
+    margin-top: 4.5em;
+}
+
+.med-top-padding {
+    padding-top: .5em;
+}
+
+.med-left-padding {
+    padding-left: .5em;
+}
+
+sup {
+    top: -.3em;
+}
+
+
+/* ----- GLOBAL STYLES -----*/
+
+html {
+    background-color: rgb(255, 255, 255);
+}
+
+.fa-ul {
+    margin-left: 1.6em;
 }
 
 .img-icon-container {
@@ -215,10 +218,6 @@ a:hover {
 
 /* ---- HEADER SECTION ---- */
 
-.header-text {
-    color: rgb(255, 255, 255);
-}
-
 .header-middle {
     padding-left: 0em;
     margin-left: -2em;
@@ -230,12 +229,17 @@ a:hover {
     min-width: 25em;
 }
 
+.header-middle .fa-li.fa-check {
+    margin: 5px 0 0;
+}
+
 .feature-box {
     height: 17em;
     text-align: center;
     max-width: 17em;
     width: 100%;
 }
+
 
 /* ---- BODY CONTENT SECTION ---- */
 
@@ -274,6 +278,7 @@ a:hover {
     max-width: 9.625em;
     text-align: center;
     height: 3.1875em;
+    line-height: 1em;
 }
 
 .tab-container {
@@ -304,6 +309,7 @@ a:hover {
     padding: 1em;
 }
 
+
 /* ----- FOOTER STYLES -----*/
 
 .footer {
@@ -314,32 +320,26 @@ a:hover {
 }
 
 @media (max-width: 1200px) {
-    
     .body-col-wide,
     .body-col-thin {
         float: none;
         width: 100%;
     }
-    
     .large-vert-margin {
         margin-top: 2em;
     }
-    
     .header-image {
         display: block;
         margin-left: auto;
         margin-right: auto;
     }
-    
     .header-middle {
-        margin-left: 0em;
-        margin-right: 0em;
-    }
-    
+        margin-left: 0;
+        margin-right: 0;
     }
     .feature-box {
         min-width: 80%;
-        margin: 0 auto 1em;
+        margin: 0 auto 2em;
     }
 }
 
@@ -348,15 +348,12 @@ a:hover {
         margin-left: auto;
         margin-right: auto;
     }
-    
     .med-left-margin {
         margin-left: auto;
     }
-    
     .tab-container {
         padding: 0 .5em 1em .5em;
     }
-    
 }
 
 @media (min-width: 768px) and (max-width: 992px) {
@@ -370,32 +367,25 @@ a:hover {
         margin: auto;
         padding: 0 4em 0;
     }
-    
     .header-middle h3 {
         min-width: 0;
     }
-    
     .main-headline br {
         display: none;
     }
-    
     .med-left-margin {
-        margin-left: auto;    
+        margin-left: auto;
     }
-    
     .med-left-padding {
         padding-left: 0;
     }
-    
     .tab-container {
         padding: 0 .5em 1em .5em;
     }
-    
     .features-box,
     .testimonials {
         text-align: center;
     }
-    
     .testimonials p {
         padding: 0 4em 0;
     }
@@ -405,13 +395,11 @@ a:hover {
     .global-text-styles {
         font-size: 14px;
     }
-    
     .header-middle {
         padding: 0 1em 0;
     }
-    
     .nav-tabs>li>a {
         width: 6.5em;
-        padding: .5em;
+        padding: 1em .5em;
     }
 }

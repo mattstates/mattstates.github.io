@@ -1,0 +1,417 @@
+/* ----- SPACING STYLES -----*/
+
+.zero-top-margin {
+    margin-top: 0;
+}
+
+.small-vert-margin {
+    margin-top: .75em;
+}
+
+.med-vert-margin {
+    margin-top: 1.5em;
+}
+
+.med-left-margin {
+    margin-left: 1.5em;
+}
+
+.large-vert-margin {
+    margin-top: 4.5em;
+}
+
+.med-top-padding {
+    padding-top: .5em;
+}
+
+.med-left-padding {
+    padding-left: .5em;
+}
+
+sup {
+    top: -.3em;
+}
+
+/* ----- GLOBAL STYLES -----*/
+
+html {
+    background-color: rgb(255, 255, 255);
+}
+
+.default-background {
+    background-color: rgb(255, 255, 255);
+}
+
+.dark-background {
+    background-color: rgb(3, 35, 53);
+}
+
+.global-text-styles {
+    color: rgb(152, 152, 152);
+    font-size: 16px;
+    font-family: "myriad-pro", sans-serif;
+}
+
+.text-color-light {
+    color: rgb(255, 255, 255);
+}
+
+.text-color-dark {
+    color: rgb(40, 65, 148);
+}
+
+.text-bold {
+    font-weight: 700;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.special-text-one {
+    color: rgb(108, 156, 178);
+}
+
+.special-text-two {
+    color: rgb(255, 191, 50);
+}
+
+.symbol-text,
+.fa-li.fa-check {
+    color: rgb(248, 160, 44);
+}
+
+.quote {
+    font-size: .9em;
+    color: rgb(100, 100, 100);
+    line-height: 1.8em;
+}
+
+.wide-line-height {
+    line-height: 3rem;
+}
+
+.main-headline {
+    font-size: 2em;
+    font-weight: 600;
+}
+
+.secondary-headline {
+    font-size: 1.4em;
+}
+
+.sub-headline {
+    font-size: 1.125em;
+    font-weight: 100;
+}
+
+.fa-ul {
+    margin-left: 1.6em;
+}
+
+.header-middle .fa-li.fa-check {
+    margin: 5px 0 0;
+}
+
+.pricing-text {
+    color: rgb(0, 0, 0);
+    font-size: 3.5em;
+}
+
+.action-text {
+    color: rgb(202, 91, 30);
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.img-icon-container {
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+}
+
+a,
+a:focus,
+a:visited,
+a:hover {
+    text-decoration: none;
+}
+
+
+/* ---- BUTTON STYLES ---- */
+
+.btn-orange {
+    background-color: rgb(202, 91, 30);
+}
+
+.btn-blue {
+    background-color: rgb(30, 128, 207);
+}
+
+.button-custom {
+    border-radius: 4px;
+    color: rgb(255, 255, 255);
+    padding: 15px 0 15px;
+    cursor: pointer;
+}
+
+.button-large {
+    width: 11.5em;
+    height: 3.06em;
+}
+
+.button-med {
+    width: 6.25em;
+    height: 2.75em;
+}
+
+
+/* ----- Begin Content Styles ----- */
+
+.main {
+    margin: 0 auto;
+    max-width: 91.125em;
+    width: 100%;
+}
+
+
+/* ----- NAVBAR STYLES -----*/
+
+.navbar-default .navbar-nav>li>a {
+    color: rgb(51, 51, 51);
+    font-size: .9em;
+    font-weight: 600;
+    padding-top: .75em;
+}
+
+.navbar-default .navbar-nav>li>a.btn {
+    color: rgb(255, 255, 255);
+    margin-left: 1em;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+    color: rgb(51, 51, 51);
+}
+
+.navbar-default {
+    border: none;
+    background-color: inherit;
+    padding: 22px 0 0;
+    text-transform: uppercase;
+}
+
+.navbar-default li {
+    min-width: 6.875em;
+}
+
+.navbar-brand {
+    padding: 0;
+}
+
+
+/* ---- HEADER SECTION ---- */
+
+.header-text {
+    color: rgb(255, 255, 255);
+}
+
+.header-middle {
+    padding-left: 0em;
+    margin-left: -2em;
+    margin-right: 2em;
+    padding: 0;
+}
+
+.header-middle h3 {
+    min-width: 25em;
+}
+
+.feature-box {
+    height: 17em;
+    text-align: center;
+    max-width: 17em;
+    width: 100%;
+}
+
+/* ---- BODY CONTENT SECTION ---- */
+
+.body-col-wide {
+    float: left;
+    width: 60.8%;
+}
+
+.body-col-thin {
+    float: right;
+    width: 39%;
+}
+
+.nav-tabs {
+    border-bottom: none;
+}
+
+.nav-tabs>li>a {
+    margin-right: 5px;
+    border: none;
+    border-radius: 10px 10px 0 0;
+    border-bottom: 1px solid rgb(221, 221, 221);
+    width: 9.625em;
+    padding: 1.1em;
+}
+
+.nav-tabs>li.active>a,
+.nav-tabs>li.active>a:focus,
+.nav-tabs>li.active>a:hover {
+    color: rgb(40, 65, 148);
+}
+
+.tabs {
+    background-color: rgb(219, 241, 254);
+    width: 7.5em;
+    max-width: 9.625em;
+    text-align: center;
+    height: 3.1875em;
+}
+
+.tab-container {
+    border-radius: 0 10px 10px 10px;
+    border: 1px solid rgb(221, 221, 221);
+    padding: 0 3em 1em 0;
+}
+
+.icon_two {
+    margin-top: -130px;
+}
+
+.icon_three {
+    margin-top: -260px;
+}
+
+.icon_four {
+    margin-top: -390px;
+}
+
+.right-column {
+    margin-top: 4.375em;
+}
+
+.sale-features {
+    width: 80%;
+    margin: auto;
+    padding: 1em;
+}
+
+/* ----- FOOTER STYLES -----*/
+
+.footer {
+    height: 5.3125em;
+    padding: 2.2em;
+    font-size: .8em;
+    font-weight: 600;
+}
+
+@media (max-width: 1200px) {
+    
+    .body-col-wide,
+    .body-col-thin {
+        float: none;
+        width: 100%;
+    }
+    
+    .large-vert-margin {
+        margin-top: 2em;
+    }
+    
+    .header-image {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .header-middle {
+        margin-left: 0em;
+        margin-right: 0em;
+    }
+    
+    }
+    .feature-box {
+        min-width: 80%;
+        margin: 0 auto 1em;
+    }
+}
+
+@media (max-width: 991px) {
+    .img-responsive {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .med-left-margin {
+        margin-left: auto;
+    }
+    
+    .tab-container {
+        padding: 0 .5em 1em .5em;
+    }
+    
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+    .testimonials img {
+        float: right;
+    }
+}
+
+@media (max-width: 767px) {
+    .header-middle {
+        margin: auto;
+        padding: 0 4em 0;
+    }
+    
+    .header-middle h3 {
+        min-width: 0;
+    }
+    
+    .main-headline br {
+        display: none;
+    }
+    
+    .med-left-margin {
+        margin-left: auto;    
+    }
+    
+    .med-left-padding {
+        padding-left: 0;
+    }
+    
+    .tab-container {
+        padding: 0 .5em 1em .5em;
+    }
+    
+    .features-box,
+    .testimonials {
+        text-align: center;
+    }
+    
+    .testimonials p {
+        padding: 0 4em 0;
+    }
+}
+
+@media (max-width: 641px) {
+    .global-text-styles {
+        font-size: 14px;
+    }
+    
+    .header-middle {
+        padding: 0 1em 0;
+    }
+    
+    .nav-tabs>li>a {
+        width: 6.5em;
+        padding: .5em;
+    }
+}
